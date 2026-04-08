@@ -122,7 +122,7 @@ git clone https://github.com/alexander-lm/PestNeuroVision.git
 
 ### 🚀 Installation
 
-1. 📥 Download the `PestNeuroVision.apk` from: [enlace](https://github.com/alexander-lm/PestNeuroVision-App/releases/download/v1.0.0/)
+1. 📥 Download the `PestNeuroVision.apk` from: [Link](https://github.com/alexander-lm/PestNeuroVision/releases/download/v1.x/PestNeuroVision_User_admin_Password_admin.apk).
 2. On your Android device, go to **Settings → Security** and enable the **“Unknown sources”** option.
 3. Open the `PestNeuroVision.apk` file and install.
 4. Grant camera and storage permissions at startup.
