@@ -133,9 +133,9 @@ git clone https://github.com/alexander-lm/PestNeuroVision.git
 
 To log in to the PestNeuroVision app, you will need to enter the following login credentials:
 
- **Credentials for Login:**
- - **User:** admin
- - **Password:** admin
+**Credentials for Login:**
+- **User:** admin
+- **Password:** admin
 
 
 ---
@@ -168,7 +168,7 @@ For best detection results, we recommend using square images (height = width), a
 ## 📧 Contact
 **Email:** leandro.alexander.2022@gmail.com\
 **University:** National University of Cañete (UNDC)\
-**GitHub:** [https://github.com/alexander-lm/PestNeuroVision-App](https://github.com/alexander-lm/PestNeuroVision-App)
+**GitHub:** [https://github.com/alexander-lm/PestNeuroVision](https://github.com/alexander-lm/PestNeuroVision)
 
 <hr style="height:4px; border:none; background-color:#444;">
 
