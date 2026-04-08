@@ -57,7 +57,7 @@ The model is based on the **YOLO11s** architecture. The development process is d
 3.  **`03_Model_evaluation.ipynb`**: Model validation (test_set).
 4.  **`04_Model_prediction.ipynb`**: Model inference on various images.
 5.  **`05_Heat_map.ipynb`**: **Heat Maps (Eigen-CAM)** for visual validation of detection.
-6.  **`06_06_Exporting_the_model.ipynb`**: Exporting the trained model to the **TensorFlow Lite** format.
+6.  **`06_Exporting_the_model.ipynb`**: Exporting the trained model to the **TensorFlow Lite** format.
 
 ---
 
