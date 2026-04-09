@@ -122,7 +122,7 @@ git clone https://github.com/alexander-lm/PestNeuroVision.git
 
 ### 🚀 Installation
 
-📥 Download the `PestNeuroVision.apk` from: [Link](https://github.com/alexander-lm/PestNeuroVision/releases/download/v1.0.0/PestNeuroVision_User_admin_Password_admin.apk).
+📥 Download the `PestNeuroVision.apk` from: [Link](https://doi.org/10.5281/zenodo.19488982).
 
 To install PestNeuroVision, run the **APK** file on your mobile device. Since this is a standalone installation, the operating system restricts the process due to security protocols until the user authorizes the installation of unknown apps. 
 
