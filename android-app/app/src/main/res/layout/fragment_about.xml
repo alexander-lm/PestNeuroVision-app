@@ -91,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="This application uses Ultralytics YOLO11s as its agricultural pest detection engine, distributed under the AGPL-3.0 license."
+            android:text="This application uses Ultralytics YOLO11s as its agricultural pest detection engine, which is also governed by the AGPL-3.0 license."
             android:fontFamily="@font/montserrat_regular"
             android:textSize="13sp"
             android:textColor="#555555"
@@ -310,6 +310,69 @@
                 android:layout_marginTop="2dp" />
 
         </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other image credits"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="15sp"
+            android:textColor="#3C2C24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:layout_marginTop="12dp"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvCredit10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App cover: Spodoptera frugiperda (adult)"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fernando Sessegolo, iNaturalist, observation 69886018, CC0 1.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tvCredit11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App icon"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Original design by the author, CC BY 4.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+
 
         <View
             android:layout_width="match_parent"

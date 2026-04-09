@@ -41,7 +41,7 @@ class DetectorFragment_bak : Fragment() {
 
     private lateinit var ivPreview: ImageView
     private lateinit var btnCamera: ImageButton
-    private lateinit var btnGallery: ImageButton
+    //private lateinit var btnGallery: ImageButton
     private var latestTmpUri: Uri? = null
 
     private var currentBitmap: Bitmap? = null
@@ -94,9 +94,9 @@ class DetectorFragment_bak : Fragment() {
 
         ivPreview = binding.ivPreview
         btnCamera = binding.btnCamera
-        btnGallery = binding.btnGallery
+        //btnGallery = binding.btnGallery
 
-        btnGallery.setOnClickListener {
+        binding.btnGallery.setOnClickListener {
             pickMedia.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
         }
 

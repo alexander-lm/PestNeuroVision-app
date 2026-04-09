@@ -61,16 +61,35 @@ class AboutFragment : Fragment() {
             view.findViewById<TextView>(viewId)?.text = spannable
         }
 
+        // Cursiva para el nombre científico en tvCredit10
+        val tv10 = view.findViewById<TextView>(R.id.tvCredit10)
+        if (tv10 != null && boldItalic != null) {
+            val fullText10 = tv10.text.toString()
+            val scientificName10 = "Spodoptera frugiperda"
+            val start10 = fullText10.indexOf(scientificName10)
+            if (start10 != -1) {
+                val spannable10 = SpannableString(fullText10)
+                spannable10.setSpan(
+                    CustomTypefaceSpan(boldItalic),
+                    start10,
+                    start10 + scientificName10.length,
+                    Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+                )
+                tv10.text = spannable10
+            }
+        }
+
         // Links de iNaturalist
         val subCredits = listOf(
-            Pair(R.id.tvCreditSub1, "60075120"),
-            Pair(R.id.tvCreditSub2, "69185885"),
-            Pair(R.id.tvCreditSub3, "240437816"),
-            Pair(R.id.tvCreditSub4, "194123388"),
-            Pair(R.id.tvCreditSub5, "225035301"),
-            Pair(R.id.tvCreditSub7, "38478019"),
-            Pair(R.id.tvCreditSub8, "134892035"),
-            Pair(R.id.tvCreditSub9, "17408158"),
+            Pair(R.id.tvCreditSub1,  "60075120"),
+            Pair(R.id.tvCreditSub2,  "69185885"),
+            Pair(R.id.tvCreditSub3,  "240437816"),
+            Pair(R.id.tvCreditSub4,  "194123388"),
+            Pair(R.id.tvCreditSub5,  "225035301"),
+            Pair(R.id.tvCreditSub7,  "38478019"),
+            Pair(R.id.tvCreditSub8,  "134892035"),
+            Pair(R.id.tvCreditSub9,  "17408158"),
+            Pair(R.id.tvCreditSub10, "69886018"),
         )
 
         subCredits.forEach { (viewId, obsNumber) ->

@@ -39,6 +39,7 @@ import com.example.projectinvasiveinsects.viewmodel.InferenceViewModel
 import com.example.projectinvasiveinsects.viewmodel.InferenceViewModelFactory
 import com.facebook.shimmer.Shimmer
 import com.facebook.shimmer.ShimmerFrameLayout
+import com.google.android.material.button.MaterialButton
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -56,7 +57,7 @@ class DetectorFragment : Fragment() {
 
     private lateinit var ivPreview: ImageView
     private lateinit var btnCamera: ImageButton
-    private lateinit var btnGallery: ImageButton
+    //private lateinit var btnGallery: MaterialButton
     private var latestTmpUri: Uri? = null
     private var currentBitmap: Bitmap? = null
 
@@ -95,9 +96,9 @@ class DetectorFragment : Fragment() {
 
         ivPreview = binding.ivPreview
         btnCamera = binding.btnCamera
-        btnGallery = binding.btnGallery
+        //btnGallery = binding.btnGallery
 
-        btnGallery.setOnClickListener {
+        binding.btnGallery.setOnClickListener {
             pickMedia.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
         }
 

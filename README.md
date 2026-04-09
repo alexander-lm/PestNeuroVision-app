@@ -122,10 +122,9 @@ git clone https://github.com/alexander-lm/PestNeuroVision.git
 
 ### 🚀 Installation
 
-1. 📥 Download the `PestNeuroVision.apk` from: [Link](https://github.com/alexander-lm/PestNeuroVision/releases/download/v1.0.0/PestNeuroVision_User_admin_Password_admin.apk).
-2. On your Android device, go to **Settings → Security** and enable the **“Unknown sources”** option.
-3. Open the `PestNeuroVision.apk` file and install.
-4. Grant camera and storage permissions at startup.
+📥 Download the `PestNeuroVision.apk` from: [Link](https://github.com/alexander-lm/PestNeuroVision/releases/download/v1.0.0/PestNeuroVision_User_admin_Password_admin.apk).
+
+To install PestNeuroVision, run the **APK** file on your mobile device. Since this is a standalone installation, the operating system restricts the process due to security protocols until the user authorizes the installation of unknown apps. 
 
 ---
 
@@ -149,7 +148,7 @@ To log in to the PestNeuroVision app, you will need to enter the following login
 * **My Account:** Interface for configuring user data.
 * **About:** An interface that displays the application's version and license information, the model, and the credits for the images included in the application.
 
-<hr style="height:4px; border:none; background-color:#444;">
+---
 
 ## 📌 Recommendations for use
 
@@ -165,13 +164,6 @@ For best detection results, we recommend using square images (height = width), a
 
 <hr style="height:4px; border:none; background-color:#444;">
 
-## 📧 Contact
-**Email:** leandro.alexander.2022@gmail.com\
-**University:** National University of Cañete (UNDC)\
-**GitHub:** [https://github.com/alexander-lm/PestNeuroVision](https://github.com/alexander-lm/PestNeuroVision)
-
-<hr style="height:4px; border:none; background-color:#444;">
-
 ## 🎖️ Credits
 
 The image credits for the images used in this project are listed in the `image_credits.csv` file.
@@ -180,7 +172,8 @@ The image credits for the images used in this project are listed in the `image_c
 
 ## ⚖️ License
 
-This project is distributed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**, with the exception of the images, which retain their original licenses (CC0 1.0 / CC BY 4.0). Any modifications or derivative works must be licensed under the same terms and their source code must be made publicly available.
+This project is distributed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0), with the exception of the images, which retain their original licenses (CC0 1.0 / CC BY 4.0). The metrics and results presented here were generated using YOLO11 by Ultralytics, which is also governed by the [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) license. Any modifications or derivative works must also be distributed under the same license, with the source code made publicly available.
+
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
@@ -188,10 +181,11 @@ This project is distributed under the **GNU Affero General Public License v3.0 (
 
 ## 💡 Technical Disclaimer
 
-⚠️ PestNeuroVision is a tool designed to assist in the detection of agricultural pests. The app is not intended to replace the judgment of an expert. It is always recommended to have the results verified by an agricultural professional. 
+⚠️ PestNeuroVision is a tool designed to assist in the detection of agricultural pests. The app is not intended to replace the judgment of an expert. It is always recommended to have the results verified by an agricultural professional.
 
 <hr style="height:4px; border:none; background-color:#444;">
 
-**Copyright (C) 2026 Alexander Leandro-Mendoza**\
-*Universidad Nacional de Cañete (UNDC)*
-
+## 📧 Contact
+**Email:** leandro.alexander.2022@gmail.com\
+**University:** [National University of Cañete (UNDC)](https://web.undc.edu.pe/)\
+**GitHub:** [https://github.com/alexander-lm/PestNeuroVision](https://github.com/alexander-lm/PestNeuroVision)
