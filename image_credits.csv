@@ -1,10 +1,15 @@
-﻿folder,filename,license,author,source_url,source_platform,year (observed),year (submitted),notes,additional_usage
-dataset/inference_dataset_(CC BY 4.0)/,bemisia_tabaci_adult.jpg,CC BY 4.0,Mihajlo Tomić,https://www.inaturalist.org/observations/60075120,iNaturalist,2020,2020,,It is also used in the folder: android-app/app/src/main/res/drawable
-dataset/inference_dataset_(CC BY 4.0)/,bemisia_tabaci_adult_2.jpg,CC BY 4.0,Mike Bowie,https://www.inaturalist.org/observations/185192259,iNaturalist,2023,2023,,
-dataset/inference_dataset_(CC BY 4.0)/,ceratitis_capitata_adult_2.jpg,CC BY 4.0,Sebastián Fornés,https://www.inaturalist.org/observations/108328659,iNaturalist,2022,2022,,
-dataset/inference_dataset_(CC BY 4.0)/,dione_juno_larva.jpg,CC BY 4.0,Alberto Reyes Bautista,https://www.inaturalist.org/observations/194123388,iNaturalist,2023,2023,,It is also used in the folder: android-app/app/src/main/res/drawable
-dataset/inference_dataset_(CC BY 4.0)/,dione_juno_larva_2.jpg,CC BY 4.0,Pietro,https://www.inaturalist.org/observations/243189131,iNaturalist,2024,2024,,
-dataset/inference_dataset_(CC BY 4.0)/,liriomyza_huidobrensis_adult.jpg,CC BY 4.0,"Mugala, J., et al",https://doi.org//10.17159/2254-8854/2022/a11455,Journal of African Entomology,2022,2022,Figure 3A from the paper.,It is also used in the folder: android-app/app/src/main/res/drawable
-dataset/inference_dataset_(CC BY 4.0)/,spodoptera_frugiperda_larva.jpg,CC BY 4.0,Megan Kossa,https://www.inaturalist.org/observations/17408158,iNaturalist,2018,2018,Third photo in the iNaturalist observation gallery (thumbnail position 3)., It is also used in the folder: android-app/app/src/main/res/drawable
-dataset/inference_dataset_(CC0 1.0)/,All images,CC0 1.0,Various,https://www.inaturalist.org,iNaturalist,Various,Various,All images are licensed under CC0 1.0. No attribution is required.,
-dataset/mini_training_dataset_(CC0 1.0)/,All images,CC0 1.0,Various,https://www.inaturalist.org,iNaturalist,Various,Various,All images are licensed under CC0 1.0. No attribution is required.,
+﻿folder,filename,license,author,source_url,source_platform,year (observed),year (submitted),notes
+dataset/inference_dataset_(CC BY 4.0)/,bemisia_tabaci_adult.jpg,CC BY 4.0,Mihajlo Tomić,https://www.inaturalist.org/observations/60075120,iNaturalist,2020,2020,
+dataset/inference_dataset_(CC BY 4.0)/,bemisia_tabaci_adult_2.jpg,CC BY 4.0,Mike Bowie,https://www.inaturalist.org/observations/185192259,iNaturalist,2023,2023,
+dataset/inference_dataset_(CC BY 4.0)/,ceratitis_capitata_adult_2.jpg,CC BY 4.0,Sebastián Fornés,https://www.inaturalist.org/observations/108328659,iNaturalist,2022,2022,
+dataset/inference_dataset_(CC BY 4.0)/,dione_juno_larva.jpg,CC BY 4.0,Alberto Reyes Bautista,https://www.inaturalist.org/observations/194123388,iNaturalist,2023,2023,
+dataset/inference_dataset_(CC BY 4.0)/,dione_juno_larva_2.jpg,CC BY 4.0,Pietro,https://www.inaturalist.org/observations/243189131,iNaturalist,2024,2024,
+dataset/inference_dataset_(CC BY 4.0)/,liriomyza_huidobrensis_adult.jpg,CC BY 4.0,"Mugala, J., et al",https://doi.org//10.17159/2254-8854/2022/a11455,Journal of African Entomology,2022,2022,Figure 3A from the paper.
+dataset/inference_dataset_(CC BY 4.0)/,spodoptera_frugiperda_larva.jpg,CC BY 4.0,Megan Kossa,https://www.inaturalist.org/observations/17408158,iNaturalist,2018,2018,Third photo in the iNaturalist observation gallery (thumbnail position 3).
+dataset/inference_dataset_(CC0 1.0)/,All images,CC0 1.0,Various,https://www.inaturalist.org,iNaturalist,Various,Various,All images are licensed under CC0 1.0. No attribution is required.
+dataset/mini_training_dataset_(CC0 1.0)/,All images,CC0 1.0,Various,https://www.inaturalist.org,iNaturalist,Various,Various,All images are licensed under CC0 1.0. No attribution is required.
+android-app/app/src/main/res/drawable/,"All images, except those listed below",CC0 1.0,Various,https://www.inaturalist.org,iNaturalist,Various,Various,
+android-app/app/src/main/res/drawable,bemisia_tabaci_adult.jpg,CC BY 4.0,Mihajlo Tomić,https://www.inaturalist.org/observations/60075120,iNaturalist,2020,2020,
+android-app/app/src/main/res/drawable,dione_juno_larva.jpg,CC BY 4.0,Alberto Reyes Bautista,https://www.inaturalist.org/observations/194123388,iNaturalist,2023,2023,
+android-app/app/src/main/res/drawable,liriomyza_huidobrensis_adult.jpg,CC BY 4.0,"Mugala, J., et al",https://doi.org//10.17159/2254-8854/2022/a11455,Journal of African Entomology,2022,2022,Figure 3A from the paper.
+android-app/app/src/main/res/drawable,spodoptera_frugiperda_larva.jpg,CC BY 4.0,Megan Kossa,https://www.inaturalist.org/observations/17408158,iNaturalist,2018,2018,Third photo in the iNaturalist observation gallery (thumbnail position 3).
