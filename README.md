@@ -42,9 +42,8 @@ This repository contains both the AI model pipeline and the installer (.apk) and
 ## 📂 Repository Structure
 
 * **android-app/**: Source code for the mobile app developed in Android Studio.
-* **colab-notebooks/**: Source code for the YOLO11s model, trained, validated, and exported.
-* **dataset/**: A representative set of images used during the model’s development, validation, and testing phases. Additionally, it includes the labels for the 900 images comprising the complete dataset. Not all of the data is available due to copyright restrictions.
-* **model-results/**: Model performance results. It contains training and evaluation metrics, performance plots, and fine-tuned YOLO11s weights (.pt and .tflite files) produced during the research.
+* **model/**: Source code for the YOLO11s model, trained, validated, and exported. dditionally, it includes the labels for the 900 images comprising the complete dataset. Not all of the data is available due to copyright restrictions.
+
 
 <hr style="height:4px; border:none; background-color:#444;">
 
@@ -72,7 +71,7 @@ The model is based on the **YOLO11s** architecture. The development process is d
 
 <hr style="height:4px; border:none; background-color:#444;">
 
-## 📱 Phase 2: Mobile App Development (Android Studio)
+## 📱 Phase 2: Mobile App Development
 
 ### 🛠️ Technology Stack
 
@@ -82,6 +81,28 @@ The model is based on the **YOLO11s** architecture. The development process is d
 * **Database:** SQLite and Room Persistence Library 
 * **Graphs:** MPAndroidChart
 
+---
+
+### 📋 Development environment requirements (developer)
+
+- **Sistema Operativo:** Windows 10 o superior, Linux Ubuntu 22.04 LTS,  o macOS 13 o superior.
+- **RAM:** 8 GB or higher
+- **Storage capacity:** 10GB or higher.
+- **Procesador:** Intel Core i5 o equivalente.
+- **IDE:** Android Studio  Studio Narwhal v2025.1.1 o superior
+- **Dispositivo físico:** Recomendado (la aplicación utiliza la cámara y la galería del dispositivo).
+- **Emulador (Opcional):** Android Virtual Device (AVD), incluido en Android Studio. Funcional para pruebas con la galería, con soporte limitado para la cámara.
+
+---
+
+### 📋 Minimum mobile device requirements (end user)
+
+- Operating System: Android 11 (API 30) or higher
+- Processor: Octa-core 2.0 GHz or higher
+- RAM: 4 GB or higher
+- Storage capacity: 150 MB minimum
+
+---
 
 ### 📂 Project Structure
 Simplified structure of the MVVM pattern used by the application:
@@ -93,40 +114,31 @@ Simplified structure of the MVVM pattern used by the application:
 └── viewmodel/      # Presentation Logic: Managing the UI state and communicating with the repository.
 ```
 
-### ⚙️ Import and Configuration
+---
+
+## ⚙️ Importar, configurar y ejecutar el código fuente
 
 1. **Clone the repository:**
-
-```text
-git clone https://github.com/alexander-lm/PestNeuroVision.git
+```bash
+   git clone https://github.com/usuario/repositorio.git
 ```
 
-2. **Open in Android Studio:** You must have Android Studio Narwhal v2025.1.1 or later installed.
-3. **Synchronize Gradle:** The project uses Kotlin v2.0.21 and updated dependencies.
-4. **Check the TFLite file:** Make sure the **pestneurovision_model.tflite** file is located in the app/src/main/assets/ folder.
-5. **Run:** Compatible with Android 11.0 (API 30) or later.
+2. **Open the project in Android Studio:** Select _File > Open_ and choose the **`app`** folder inside the cloned repository (not the root folder).
 
+3. **Sync Gradle:** Android Studio will automatically sync the dependencies when the project is opened. Otherwise, select _File > Sync Project with Gradle Files_. The project uses Kotlin v2.0.21 with updated dependencies.
+
+4. **Configure the device:**
+   - **Physical device (recommended):**
+     - Enable **Developer Options** from the device settings.
+     - Access **Developer Options** and select the debugging method:
+       - **USB cable:** Enable **USB Debugging**.
+       - **Wi-Fi:** Enable **Wireless Debugging** and make sure both the computer and the device are connected to the same network.
+   - **Emulator (optional):**
+     - Set up a virtual device from _Device Manager > Create Virtual Device_ in Android Studio.
+
+5. **Run the application (Shift + F10):** Select the target device and run the application.
 
 <hr style="height:4px; border:none; background-color:#444;">
-
-## 📱 Phase 3: Installing the Mobile App (PestNeuroVision.apk)
-
-### 📋 Requirements
-
-- Operating System: Android 11 (API 30) or higher
-- Processor: Octa-core 2.0 GHz or higher
-- RAM: 4 GB or higher
-- Storage capacity: 150 MB minimum
-
----
-
-### 🚀 Installation
-
-📥 Download the `PestNeuroVision.apk` from: [Link](https://doi.org/10.5281/zenodo.19488982).
-
-To install PestNeuroVision, run the **APK** file on your mobile device. Since this is a standalone installation, the operating system restricts the process due to security protocols until the user authorizes the installation of unknown apps. 
-
----
 
 ### 🔐 Application Login Credentials
 
@@ -135,7 +147,6 @@ To log in to the PestNeuroVision app, you will need to enter the following login
 **Credentials for Login:**
 - **User:** admin
 - **Password:** admin
-
 
 ---
 
@@ -172,7 +183,8 @@ The image credits for the images used in this project are listed in the `image_c
 
 ## ⚖️ License
 
-This project is distributed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0), with the exception of the images, which retain their original licenses (CC0 1.0 / CC BY 4.0). The metrics and results presented here were generated using YOLO11 by Ultralytics, which is also governed by the [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) license. Any modifications or derivative works must also be distributed under the same license, with the source code made publicly available.
+This project is distributed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0), with the exception of the images, which retain their original licenses (CC0 1.0 / CC BY 4.0). The fine-tuned YOLO11s weights used in this project, as well as the resulting metrics, are derivative works of the 
+Ultralytics YOLO11 base model, which is also governed by the [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) license. Any modifications or derivative works must also be distributed under the same license, with the source code made publicly available.
 
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)

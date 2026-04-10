@@ -22,18 +22,17 @@ along with this program. If not, see <https://www.gnu.org/licenses/agpl-3.0.html
 
 APPLICABILITY AND EXCEPTIONS
 
-This license applies to the entire project (including all source code,
-notebooks, model weights, performance plots, and labels).
-The only exception is the insect photographs located in any subfolders
-within the dataset/ and android-app/ directories.
-These photographs retain their original licenses (CC0 1.0 / CC BY 4.0).
+This license applies to the entire project. The only exception is images located
+in any subfolder within the android-app/ directory.
+
+These images retain their original licenses (CC0 1.0 / CC BY 4.0).
 
 --------------------------------------------------------------------------------
 
 YOLO11s MODEL WEIGHTS
 
 The fine-tuned YOLO11s weights used in this project, as well as the 
-resulting metrics and CSV data, are derivative works of the 
+resulting metrics, are derivative works of the 
 Ultralytics YOLO11 base model. 
 
 These assets are distributed under the GNU Affero General Public 
@@ -53,7 +52,7 @@ licenses.
 
 THIRD-PARTY RESOURCES AND ATTRIBUTION
 
-Detailed information about the copyright for the insect photographs (author and
+Detailed information about the copyright for the images (author and
 specific license) can be found in the image_credits.csv file, located in the root
 directory of this repository.
 
