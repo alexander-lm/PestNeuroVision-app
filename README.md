@@ -86,9 +86,9 @@ The model is based on the **YOLO11s** architecture. The development process is d
 ### 📋 Development environment requirements (developer)
 
 - **Operating System:** Windows 10 or higher, Linux Ubuntu 22.04 LTS or higher, or macOS 13 or higher.
+- **Processor:** Intel Core i5 or equivalent.
 - **RAM:** 8 GB or higher.
 - **Storage capacity:** 10 GB or higher.
-- **Processor:** Intel Core i5 or equivalent.
 - **IDE:** Android Studio Narwhal v2025.1.1 or higher.
 - **Physical device:** Recommended (the application uses the device's camera and gallery).
 - **Emulator (Optional):** Android Virtual Device (AVD), included in Android Studio. Functional for gallery testing, with limited camera support.
@@ -97,10 +97,10 @@ The model is based on the **YOLO11s** architecture. The development process is d
 
 ### 📋 Minimum mobile device requirements (end user)
 
-- Operating System: Android 11 (API 30) or higher
-- Processor: Octa-core 2.0 GHz or higher
-- RAM: 4 GB or higher
-- Storage capacity: 150 MB minimum
+- **Operating System:** Android 11 (API 30) or higher
+- **Processor:** Octa-core 2.0 GHz or higher
+- **RAM:** 4 GB or higher
+- **Storage capacity:** 150 MB minimum
 
 ---
 
@@ -120,7 +120,7 @@ Simplified structure of the MVVM pattern used by the application:
 
 1. **Clone the repository:**
 ```bash
-   git clone https://github.com/usuario/repositorio.git
+   git clone https://github.com/alexander-lm/PestNeuroVision.git
 ```
 
 2. **Open the project in Android Studio:** Select _File > Open_ and choose the **`app`** folder inside the cloned repository (not the root folder).
@@ -142,9 +142,8 @@ Simplified structure of the MVVM pattern used by the application:
 
 ### 🔐 Application Login Credentials
 
-To log in to the PestNeuroVision app, you will need to enter the following login credentials:
+Use the following credentials to log in to the PestNeuroVision app:
 
-**Credentials for Login:**
 - **User:** admin
 - **Password:** admin
 
