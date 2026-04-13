@@ -170,7 +170,7 @@ For best detection results, we recommend using square images (height = width), a
 
 **Lead Developer and Researcher:** Alexander, Leandro-Mendoza — 🔗 **ORCID:** [0000-0002-8514-6804](https://orcid.org/0000-0002-8514-6804)\
 **Academic Advisor:** Alex, Pacheco-Pumaleque - **ORCID:** [0000-0001-9721-0730](https://orcid.org/0000-0001-9721-0730)\
-**Funding Entity:** Directorate of Innovation and Technology Transfer (DITT) — National University of Cañete (UNDC)
+**Funding Entity:** Directorate of Innovation and Technology Transfer (DITT) — Universidad Nacional de Cañete (UNDC)
 
 <hr style="height:4px; border:none; background-color:#444;">
 
