@@ -121,7 +121,7 @@ Simplified structure of the MVVM pattern used by the application:
    git clone https://github.com/alexander-lm/PestNeuroVision-app.git
 ```
 
-2. **Open the project in Android Studio:** Select _File > Open_ and choose the **`app`** folder inside the cloned repository (not the root folder).
+2. **Open the project in Android Studio:** Select _File > Open_ and choose the **`android-app`** folder inside the cloned repository (not the root folder).
 
 3. **Sync Gradle:** Android Studio will automatically sync the dependencies when the project is opened. Otherwise, select _File > Sync Project with Gradle Files_. The project uses Kotlin v2.0.21 with updated dependencies.
 
